@@ -24,7 +24,7 @@ const Contact = ({ id }: SectionProps) => {
   setSubmitError('');
 
   try {
-    const res = await fetch('/api/send-email', {
+    const res = await fetch('/api/send_email', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),

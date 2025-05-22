@@ -63,7 +63,7 @@ const Contact = ({ id }: SectionProps) => {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium">Téléphone</h4>
-                    <p className="text-gray-600">+225 07 48 01 11 11/ +225 07 08 23 50 16</p>
+                    <p className="text-gray-600">+225 07 48 01 11 11 / +225 07 08 23 50 16</p>
                   </div>
                 </div>
                 

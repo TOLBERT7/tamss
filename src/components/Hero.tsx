@@ -3,40 +3,42 @@ import { ArrowRight } from 'lucide-react';
 
 const serviceSlides = [
   {
-    id: 'electricite',
-    title: 'Électricité',
-    description: 'Installations et réparations électriques professionnelles',
-    image: 'https://images.pexels.com/photos/8005368/pexels-photo-8005368.jpeg'
+    id: 'btc1',
+    title: 'Briques Ecologiques',
+    description: 'TAMSE, le specialiste du  Geo Beton et de la maintenance immobiliere',
+    image: '/btc2.jpg'
   },
   {
-    id: 'jardinage',
-    title: 'Jardinage',
-    description: 'Entretien et création d\'espaces verts',
-    image: '/jardinage.jpg'
+    id: 'btc2',
+    title: 'Briques Ecologiques',
+    description: 'Tout pour la construction sous un meme toit',
+    image: '/btc3.jpg'
   },
   {
     id: 'briques-eco',
     title: 'Briques éco',
     description: 'Solutions de construction écologiques et durables',
-    image: '/briques.jpg'
+    image: '/btc4.jpg'
   },
   {
-    id: 'climatisation',
-    title: 'Climatisation',
-    description: 'Installation et entretien de systèmes de climatisation',
-    image: 'https://images.pexels.com/photos/3637739/pexels-photo-3637739.jpeg'
+    id: 'btc3',
+    title: 'Briques Ecologiques',
+   
+    description: 'TAMSE, le specialiste du  Geo Beton et de la maintenance immobiliere',
+    image: '/btc5.jpg'
   },
   {
-    id: 'nettoyage',
-    title: 'Nettoyage',
-    description: 'Services de nettoyage professionnel pour particuliers et entreprises',
-    image: 'https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg'
+    id: 'btc4',
+    title: 'Briques Ecologiques',
+
+    description: 'Tout pour la construction sous un meme toit',
+    image: '/briq.jpg'
   },
   {
-    id: 'gestion-immobiliere',
+    id: 'btc5',
     title: 'Gestion Immobilière',
-    description: 'Gestion complète de vos biens immobiliers',
-    image: '/immobilier.jpg'
+    description: 'TAMSE, le specialiste du  Geo Beton et de la maintenance immobiliere',
+    image: '/briques.jpg'
   }
 ];
 
@@ -94,7 +96,7 @@ const Hero = () => {
               onClick={scrollToServices}
               className="btn-primary flex items-center justify-center gap-2 group"
             >
-              Découvrir nos services
+              Découvrir nos autres services
               <ArrowRight size={20} className="transition-transform group-hover:translate-x-1" />
             </button>
           </div>

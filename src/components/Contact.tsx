@@ -18,24 +18,32 @@ const Contact = ({ id }: SectionProps) => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
-      // In a real application, you would send the data to your backend or email service
-      console.log('Form submitted:', formData);
-      setIsSubmitting(false);
-      setSubmitSuccess(true);
-      setFormData({ name: '', email: '', subject: '', message: '' });
-      
-      // Reset success message after 5 seconds
-      setTimeout(() => {
-        setSubmitSuccess(false);
-      }, 5000);
-    }, 1500);
-  };
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setIsSubmitting(true);
+  setSubmitError('');
+
+  try {
+    const res = await fetch('/api/send-email', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData),
+    });
+
+    if (!res.ok) {
+      const { error } = await res.json();
+      throw new Error(error || 'Erreur serveur');
+    }
+
+    setSubmitSuccess(true);
+    setFormData({ name: '', email: '', subject: '', message: '' });
+    setTimeout(() => setSubmitSuccess(false), 5000);
+  } catch (err: any) {
+    setSubmitError(err.message);
+  } finally {
+    setIsSubmitting(false);
+  }
+};
 
   return (
     <section id={id} className="section bg-gray-50">
@@ -55,7 +63,7 @@ const Contact = ({ id }: SectionProps) => {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium">Téléphone</h4>
-                    <p className="text-gray-600">+XX XX XX XX XX</p>
+                    <p className="text-gray-600">+225 07 48 01 11 11/ +225 07 08 23 50 16</p>
                   </div>
                 </div>
                 
@@ -65,7 +73,7 @@ const Contact = ({ id }: SectionProps) => {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium">Email</h4>
-                    <p className="text-gray-600">andreaka@tripleamultiservices.com</p>
+                    <p className="text-gray-600">admin@tripleamultiservices.com</p>
                   </div>
                 </div>
                 
@@ -75,7 +83,7 @@ const Contact = ({ id }: SectionProps) => {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium">Adresse</h4>
-                    <p className="text-gray-600">Triple A Multiservices, Votre adresse ici</p>
+                    <p className="text-gray-600">Triple A Multiservices</p>
                   </div>
                 </div>
               </div>
@@ -84,7 +92,7 @@ const Contact = ({ id }: SectionProps) => {
               <div className="mt-10">
                 <h4 className="text-lg font-medium mb-4">Contactez-nous rapidement</h4>
                 <a 
-                  href="https://wa.me/+XXXXXXXXXXX" 
+                  href="https://wa.me/447763029704" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn-whatsapp animate-pulse-slow"
@@ -140,7 +148,7 @@ const Contact = ({ id }: SectionProps) => {
                     onChange={handleChange}
                     required
                     className="form-input"
-                    placeholder="votre@email.com"
+                    placeholder="votre@gmail.com"
                   />
                 </div>
                 

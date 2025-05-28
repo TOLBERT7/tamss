@@ -60,9 +60,7 @@ const ServiceDetail = ({ id, serviceId }: ServiceDetailProps) => {
             
             <div className="prose prose-lg max-w-none" dangerouslySetInnerHTML={{ __html: service.detailedDescription }} />
             
-            <button className="mt-6 btn-primary">
-              Demander un devis
-            </button>
+            
           </div>
         </div>
       </div>

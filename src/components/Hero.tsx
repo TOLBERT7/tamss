@@ -11,7 +11,7 @@ const serviceSlides = [
   {
     id: 'btc2',
     title: 'Briques Ecologiques',
-    description: 'Tout pour la construction sous un meme toit',
+    description: 'solutions de construction ecologiques et durables',
     image: '/btc3.jpg'
   },
   {
@@ -39,7 +39,32 @@ const serviceSlides = [
     title: 'Gestion Immobilière',
     description: 'TAMSE, le specialiste du  Geo Beton et de la maintenance immobiliere',
     image: '/briques.jpg'
+  },
+  {
+    id: 'btc6',
+    title: 'Gestion Immobilière',
+    description: 'TAMSE, le specialiste du  Geo Beton et de la maintenance immobiliere',
+    image: '/btc6.jpg'
+  },
+  {
+    id: 'btc7',
+    title: 'Gestion Immobilière',
+    description: 'TAMSE, le specialiste du  Geo Beton et de la maintenance immobiliere',
+    image: '/btc7.jpg'
+  },
+  {
+    id: 'btc8',
+    title: 'Gestion Immobilière',
+    description: 'TAMSE, le specialiste du  Geo Beton et de la maintenance immobiliere',
+    image: '/btc8.jpg'
+  },
+   {
+    id: 'btc9',
+    title: 'Gestion Immobilière',
+    description: 'TAMSE, le specialiste du  Geo Beton et de la maintenance immobiliere',
+    image: '/btc9.jpg'
   }
+
 ];
 
 const Hero = () => {

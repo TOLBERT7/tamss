@@ -139,6 +139,7 @@ const Navbar = () => {
                     }}
                   >
                     Briques éco
+                    
                   </a>
                   <a 
                     href="#service-climatisation" 
@@ -149,7 +150,7 @@ const Navbar = () => {
                       setServicesDropdownOpen(false);
                     }}
                   >
-                    Climatisation
+                    Froid
                   </a>
                   <a 
                     href="#service-nettoyage" 
@@ -162,6 +163,29 @@ const Navbar = () => {
                   >
                     Nettoyage
                   </a>
+                   <a 
+                    href="#service-plomberie" 
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      scrollToSection('service-plomberie');
+                      setServicesDropdownOpen(false);
+                    }}
+                  >
+                    Plomberie
+                  </a>
+                   <a 
+                    href="#service-decoration" 
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      scrollToSection('service-decoration');
+                      setServicesDropdownOpen(false);
+                    }}
+                  >
+                    Décoration d'interieur
+                  </a>
+                  
                   <a 
                     href="#service-gestion-immobiliere" 
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"

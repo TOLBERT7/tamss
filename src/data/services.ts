@@ -2,56 +2,8 @@ import { Service } from '../types';
 
 export const services: Service[] = [
   {
-    id: 'electricite',
-    title: 'Électricité',
-    description: 'Installations électriques, dépannages et mises aux normes pour particuliers et professionnels.',
-    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 16.8a7.14 7.14 0 0 0 2.5-2.8M4 4v2a4 4 0 0 0 4 4h3M12 16.8V7.2M20 20H4M12 20v-3.3"/><path d="M12 12h0"/></svg>',
-    image: 'https://images.pexels.com/photos/8005368/pexels-photo-8005368.jpeg',
-    detailedDescription: `
-      <p>Notre équipe d'électriciens qualifiés propose une gamme complète de services électriques pour répondre à tous vos besoins.</p>
-      
-      <h4 class="text-lg font-semibold mt-4 mb-2">Nos services électriques incluent :</h4>
-      <ul class="list-disc pl-5 mb-4">
-        <li>Installation électrique complète pour nouvelles constructions</li>
-        <li>Rénovation et mise aux normes d'installations existantes</li>
-        <li>Dépannage d'urgence 24h/24 et 7j/7</li>
-        <li>Installation de tableaux électriques</li>
-        <li>Pose de prises et interrupteurs</li>
-        <li>Éclairage intérieur et extérieur</li>
-        <li>Systèmes de sécurité (alarmes, détecteurs)</li>
-        <li>Solutions d'économie d'énergie</li>
-      </ul>
-      
-      <p>Tous nos travaux sont réalisés dans le respect des normes de sécurité en vigueur, garantissant des installations fiables et sécurisées.</p>
-    `
-  },
-  {
-    id: 'jardinage',
-    title: 'Jardinage',
-    description: 'Entretien, aménagement et création d\'espaces verts pour embellir votre extérieur.',
-    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 15V9"/><rect x="8" y="9" width="14" height="6" rx="2"/><path d="M8 15c0 3.5-2 6-2 6H4s-2-2.5-2-6c0-3.5 2-6 3-6s3 2.5 3 6z"/></svg>',
-    image: '/jardinage2.jpg',
-    detailedDescription: `
-      <p>Envie de sublimer votre jardin ? Nos experts en jardinage vous proposent des solutions sur mesure pour créer et entretenir des espaces verts magnifiques.</p>
-      
-      <h4 class="text-lg font-semibold mt-4 mb-2">Nos services de jardinage comprennent :</h4>
-      <ul class="list-disc pl-5 mb-4">
-        <li>Conception et aménagement de jardins</li>
-        <li>Entretien régulier (tonte, taille, désherbage)</li>
-        <li>Plantation d'arbres, arbustes et fleurs</li>
-        <li>Installation de systèmes d'irrigation</li>
-        <li>Traitement des pelouses et des plantes</li>
-        <li>Création de massifs et bordures</li>
-        <li>Élagage et abattage d'arbres</li>
-        <li>Conseils personnalisés pour l'entretien de votre jardin</li>
-      </ul>
-      
-      <p>Que vous souhaitiez un entretien régulier ou un projet d'aménagement complet, notre équipe de jardiniers passionnés saura répondre à vos attentes avec professionnalisme et créativité.</p>
-    `
-  },
-  {
     id: 'briques-eco',
-    title: 'Briques Éco',
+    title: 'solutions de construction ecologiques et durables',
     description: 'Solutions de construction écologiques et durables avec des matériaux respectueux de l\'environnement.',
     icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2" ry="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01"/><path d="M16 6h.01"/><path d="M12 6h.01"/><path d="M12 10h.01"/><path d="M12 14h.01"/><path d="M16 10h.01"/><path d="M16 14h.01"/><path d="M8 10h.01"/><path d="M8 14h.01"/></svg>',
     image: '/btc.jpg',
@@ -80,9 +32,34 @@ export const services: Service[] = [
       <p>Optez pour une construction respectueuse de l'environnement sans compromettre la qualité et l'esthétique de votre projet.</p>
     `
   },
+  
+  {
+    id: 'electricite',
+    title: 'Électricité',
+    description: 'Installations électriques, dépannages et mises aux normes pour particuliers et professionnels.',
+    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 16.8a7.14 7.14 0 0 0 2.5-2.8M4 4v2a4 4 0 0 0 4 4h3M12 16.8V7.2M20 20H4M12 20v-3.3"/><path d="M12 12h0"/></svg>',
+    image: 'https://images.pexels.com/photos/8005368/pexels-photo-8005368.jpeg',
+    detailedDescription: `
+      <p>Notre équipe d'électriciens qualifiés propose une gamme complète de services électriques pour répondre à tous vos besoins.</p>
+      
+      <h4 class="text-lg font-semibold mt-4 mb-2">Nos services électriques incluent :</h4>
+      <ul class="list-disc pl-5 mb-4">
+        <li>Installation électrique complète pour nouvelles constructions</li>
+        <li>Rénovation et mise aux normes d'installations existantes</li>
+        <li>Dépannage d'urgence 24h/24 et 7j/7</li>
+        <li>Installation de tableaux électriques</li>
+        <li>Pose de prises et interrupteurs</li>
+        <li>Éclairage intérieur et extérieur</li>
+        <li>Systèmes de sécurité (alarmes, détecteurs)</li>
+        <li>Solutions d'économie d'énergie</li>
+      </ul>
+      
+      <p>Tous nos travaux sont réalisés dans le respect des normes de sécurité en vigueur, garantissant des installations fiables et sécurisées.</p>
+    `
+  },
   {
     id: 'climatisation',
-    title: 'Climatisation',
+    title: 'Froid',
     description: 'Installation, entretien et réparation de systèmes de climatisation pour votre confort toute l\'année.',
     icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5v14"/><path d="M5 15h14"/><path d="M9 9h6"/><path d="M9 19h6"/></svg>',
     image: '/climatisation.jpg',
@@ -110,7 +87,6 @@ export const services: Service[] = [
     description: 'Services de nettoyage professionnel pour particuliers et entreprises, adaptés à tous types de locaux.',
     icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 9 4-4"/><path d="m10 5-8 8"/><path d="m5 10-4 4"/><path d="m10 5 8 8"/><path d="m14 9 4-4"/><path d="m5 19 14-14"/><rect width="4" height="6" x="15" y="15" rx="2"/></svg>',
     image: '/nettoyage.jpg',
-    // image: 'https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg',
     detailedDescription: `
       <p>TAMSE propose des services de nettoyage professionnel adaptés à tous types de locaux et à toutes exigences, pour les particuliers comme pour les entreprises.</p>
       
@@ -136,6 +112,72 @@ export const services: Service[] = [
       </ul>
       
       <p>Nous établissons avec vous un plan de nettoyage personnalisé en fonction de vos besoins spécifiques et de votre budget.</p>
+    `
+  },
+  {
+    id: 'plomberie',
+    title: 'Plomberie',
+    description: 'Services de plomberie pour installations, réparations et dépannages rapides.',
+    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 9 4-4"/><path d="m10 5-8 8"/><path d="m5 10-4 4"/><path d="m10 5 8 8"/><path d="m14 9 4-4"/><path d="m5 19 14-14"/><rect width="4" height="6" x="15" y="15" rx="2"/></svg>',
+    image: '/plomberie.jpg',
+    detailedDescription: `
+      <p>TAMSE propose des services de plomberie pour tous vos besoins d'installations, réparations et dépannages rapides.</p>
+      
+      <h4 class="text-lg font-semibold mt-4 mb-2">Nos services de plomberie incluent :</h4>
+      <ul class="list-disc pl-5 mb-4">
+        <li>Installation de sanitaires (toilettes, lavabos, douches, baignoires)</li>
+        <li>Rénovation de salles de bains et cuisines</li>
+        <li>Détection et réparation de fuites d'eau</li>
+        <li>Entretien et réparation de chauffe-eaux</li>
+        <li>Installation de systèmes de chauffage (radiateurs, planchers chauffants)</li>
+        <li>Débouchage de canalisations</li>
+        <li>Installation de robinetterie</li>
+        <li>Conseils pour des économies d'eau et d'énergie</li>
+      </ul>
+      
+      <h4 class="text-lg font-semibold mt-4 mb-2">Pourquoi choisir nos services de plomberie ?</h4>
+      <ul class="list-disc pl-5 mb-4">
+        <li>Interventions rapides et efficaces</li>
+        <li>Devis gratuit et transparent</li>
+        <li>Travaux garantis et conformes aux normes</li>
+        <li>Équipe de plombiers qualifiés et expérimentés</li>
+        <li>Service client à l'écoute et réactif</li>
+      </ul>
+      
+      <p>Pour tous vos projets de plomberie, faites confiance à TAMSE, votre expert en installations et réparations sanitaires.</p>
+    `
+  },
+  {
+    id: 'decoration',
+    title: 'Décoration d\'intérieur', 
+    description: 'Conseil, conception et réalisation de projets de décoration pour sublimer vos espaces de vie ou de travail.',
+    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5v14"/><path d="M5 15h14"/><path d="M9 9h6"/><path d="M9 19h6"/></svg>',
+    image: '/decoration.jpg',
+    detailedDescription: `
+      <p>Nos experts en décoration d'intérieur vous accompagnent pour transformer et valoriser vos espaces selon vos envies et votre style.</p>
+      
+      <h4 class="text-lg font-semibold mt-4 mb-2">Nos prestations de décoration comprennent :</h4>
+      <ul class="list-disc pl-5 mb-4">
+        <li>Conseil en aménagement et optimisation de l’espace</li>
+        <li>Choix des couleurs, matériaux et ambiances</li>
+        <li>Sélection de mobilier et accessoires déco</li>
+        <li>Création de plans 2D/3D et moodboards</li>
+        <li>Réalisation de travaux de peinture, revêtements muraux et sols</li>
+        <li>Agencement sur-mesure (placards, rangements, bibliothèques...)</li>
+        <li>Décoration événementielle ou saisonnière</li>
+        <li>Accompagnement shopping déco</li>
+      </ul>
+      
+      <h4 class="text-lg font-semibold mt-4 mb-2">Nos engagements :</h4>
+      <ul class="list-disc pl-5 mb-4">
+        <li>Écoute de vos besoins et respect de votre budget</li>
+        <li>Créativité et personnalisation</li>
+        <li>Suivi de projet de A à Z</li>
+        <li>Collaboration avec des artisans qualifiés</li>
+        <li>Respect des délais et qualité des finitions</li>
+      </ul>
+      
+      <p>Confiez-nous votre projet de décoration pour un intérieur harmonieux, fonctionnel et à votre image.</p>
     `
   },
   {
@@ -170,5 +212,30 @@ export const services: Service[] = [
       
       <p>Confiez-nous la gestion de vos biens immobiliers et profitez de votre investissement en toute sérénité.</p>
     `
-  }
+  },
+  {
+    id: 'jardinage',
+    title: ' jardinage par amenagement espaces verts et jeux',
+    description: 'Entretien, aménagement et création d\'espaces verts pour embellir votre extérieur.',
+    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 15V9"/><rect x="8" y="9" width="14" height="6" rx="2"/><path d="M8 15c0 3.5-2 6-2 6H4s-2-2.5-2-6c0-3.5 2-6 3-6s3 2.5 3 6z"/></svg>',
+    image: '/jardinage2.jpg',
+    detailedDescription: `
+      <p>Envie de sublimer votre jardin ? Nos experts en jardinage vous proposent des solutions sur mesure pour créer et entretenir des espaces verts magnifiques.</p>
+      
+      <h4 class="text-lg font-semibold mt-4 mb-2">Nos services de jardinage comprennent :</h4>
+      <ul class="list-disc pl-5 mb-4">
+        <li>Conception et aménagement de jardins</li>
+        <li>Entretien régulier (tonte, taille, désherbage)</li>
+        <li>Plantation d'arbres, arbustes et fleurs</li>
+        <li>Installation de systèmes d'irrigation</li>
+        <li>Traitement des pelouses et des plantes</li>
+        <li>Création de massifs et bordures</li>
+        <li>Élagage et abattage d'arbres</li>
+        <li>Conseils personnalisés pour l'entretien de votre jardin</li>
+      </ul>
+      
+      <p>Que vous souhaitiez un entretien régulier ou un projet d'aménagement complet, notre équipe de jardiniers passionnés saura répondre à vos attentes avec professionnalisme et créativité.</p>
+    `
+  },
+  
 ];

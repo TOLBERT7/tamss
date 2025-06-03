@@ -32,6 +32,39 @@ export const services: Service[] = [
       <p>Optez pour une construction respectueuse de l'environnement sans compromettre la qualité et l'esthétique de votre projet.</p>
     `
   },
+  {
+    id: 'gestion-immobiliere',
+    title: 'Gestion Immobilière',
+    description: 'Solutions complètes de gestion de biens immobiliers pour propriétaires et investisseurs.',
+    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9"/><path d="M11 12h2"/><rect width="16" height="4" x="4" y="5" rx="1"/></svg>',
+    image: '/immobilier.jpg',
+    detailedDescription: `
+      <p>Notre service de gestion immobilière offre aux propriétaires et investisseurs une solution complète pour la gestion de leurs biens, leur permettant de se libérer des contraintes administratives et techniques.</p>
+      
+      <h4 class="text-lg font-semibold mt-4 mb-2">Nos services de gestion immobilière comprennent :</h4>
+      <ul class="list-disc pl-5 mb-4">
+        <li>Recherche et sélection de locataires</li>
+        <li>Rédaction de baux et état des lieux</li>
+        <li>Collecte des loyers et gestion des impayés</li>
+        <li>Suivi comptable et répartition des charges</li>
+        <li>Gestion technique des biens (entretien, réparations)</li>
+        <li>Coordination avec les syndics de copropriété</li>
+        <li>Conseil fiscal et optimisation des investissements</li>
+        <li>Représentation du propriétaire auprès des administrations</li>
+      </ul>
+      
+      <h4 class="text-lg font-semibold mt-4 mb-2">Pourquoi choisir TAMSE pour la gestion de vos biens ?</h4>
+      <ul class="list-disc pl-5 mb-4">
+        <li>Équipe expérimentée et professionnelle</li>
+        <li>Connaissance approfondie du marché local</li>
+        <li>Transparence dans la gestion et reporting régulier</li>
+        <li>Réactivité face aux problèmes et demandes des locataires</li>
+        <li>Approche personnalisée adaptée à chaque bien et propriétaire</li>
+      </ul>
+      
+      <p>Confiez-nous la gestion de vos biens immobiliers et profitez de votre investissement en toute sérénité.</p>
+    `
+  },
   
   {
     id: 'electricite',
@@ -81,39 +114,7 @@ export const services: Service[] = [
       <p>Nous travaillons avec les meilleures marques du marché pour vous garantir des installations performantes, économiques et respectueuses de l'environnement. Nos techniciens certifiés assurent un travail soigné et conforme aux normes en vigueur.</p>
     `
   },
-  {
-    id: 'nettoyage',
-    title: 'Nettoyage',
-    description: 'Services de nettoyage professionnel pour particuliers et entreprises, adaptés à tous types de locaux.',
-    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 9 4-4"/><path d="m10 5-8 8"/><path d="m5 10-4 4"/><path d="m10 5 8 8"/><path d="m14 9 4-4"/><path d="m5 19 14-14"/><rect width="4" height="6" x="15" y="15" rx="2"/></svg>',
-    image: '/nettoyage.jpg',
-    detailedDescription: `
-      <p>TAMSE propose des services de nettoyage professionnel adaptés à tous types de locaux et à toutes exigences, pour les particuliers comme pour les entreprises.</p>
-      
-      <h4 class="text-lg font-semibold mt-4 mb-2">Nos prestations de nettoyage incluent :</h4>
-      <ul class="list-disc pl-5 mb-4">
-        <li>Nettoyage régulier ou ponctuel de bureaux et locaux commerciaux</li>
-        <li>Entretien d'immeubles et parties communes</li>
-        <li>Nettoyage de fin de chantier</li>
-        <li>Remise en état après travaux ou déménagement</li>
-        <li>Lavage de vitres et façades</li>
-        <li>Nettoyage en profondeur de sanitaires</li>
-        <li>Désinfection de locaux</li>
-        <li>Nettoyage industriel</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold mt-4 mb-2">Nos engagements :</h4>
-      <ul class="list-disc pl-5 mb-4">
-        <li>Personnel formé et qualifié</li>
-        <li>Produits professionnels et écologiques</li>
-        <li>Équipements modernes et performants</li>
-        <li>Horaires adaptés à vos contraintes</li>
-        <li>Suivi qualité rigoureux</li>
-      </ul>
-      
-      <p>Nous établissons avec vous un plan de nettoyage personnalisé en fonction de vos besoins spécifiques et de votre budget.</p>
-    `
-  },
+  
   {
     id: 'plomberie',
     title: 'Plomberie',
@@ -180,42 +181,10 @@ export const services: Service[] = [
       <p>Confiez-nous votre projet de décoration pour un intérieur harmonieux, fonctionnel et à votre image.</p>
     `
   },
-  {
-    id: 'gestion-immobiliere',
-    title: 'Gestion Immobilière',
-    description: 'Solutions complètes de gestion de biens immobiliers pour propriétaires et investisseurs.',
-    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9"/><path d="M11 12h2"/><rect width="16" height="4" x="4" y="5" rx="1"/></svg>',
-    image: '/immobilier.jpg',
-    detailedDescription: `
-      <p>Notre service de gestion immobilière offre aux propriétaires et investisseurs une solution complète pour la gestion de leurs biens, leur permettant de se libérer des contraintes administratives et techniques.</p>
-      
-      <h4 class="text-lg font-semibold mt-4 mb-2">Nos services de gestion immobilière comprennent :</h4>
-      <ul class="list-disc pl-5 mb-4">
-        <li>Recherche et sélection de locataires</li>
-        <li>Rédaction de baux et état des lieux</li>
-        <li>Collecte des loyers et gestion des impayés</li>
-        <li>Suivi comptable et répartition des charges</li>
-        <li>Gestion technique des biens (entretien, réparations)</li>
-        <li>Coordination avec les syndics de copropriété</li>
-        <li>Conseil fiscal et optimisation des investissements</li>
-        <li>Représentation du propriétaire auprès des administrations</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold mt-4 mb-2">Pourquoi choisir TAMSE pour la gestion de vos biens ?</h4>
-      <ul class="list-disc pl-5 mb-4">
-        <li>Équipe expérimentée et professionnelle</li>
-        <li>Connaissance approfondie du marché local</li>
-        <li>Transparence dans la gestion et reporting régulier</li>
-        <li>Réactivité face aux problèmes et demandes des locataires</li>
-        <li>Approche personnalisée adaptée à chaque bien et propriétaire</li>
-      </ul>
-      
-      <p>Confiez-nous la gestion de vos biens immobiliers et profitez de votre investissement en toute sérénité.</p>
-    `
-  },
+  
   {
     id: 'jardinage',
-    title: ' jardinage par amenagement espaces verts et jeux',
+    title: ' amenagement espaces verts et jeux',
     description: 'Entretien, aménagement et création d\'espaces verts pour embellir votre extérieur.',
     icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 15V9"/><rect x="8" y="9" width="14" height="6" rx="2"/><path d="M8 15c0 3.5-2 6-2 6H4s-2-2.5-2-6c0-3.5 2-6 3-6s3 2.5 3 6z"/></svg>',
     image: '/jardinage2.jpg',
@@ -235,6 +204,39 @@ export const services: Service[] = [
       </ul>
       
       <p>Que vous souhaitiez un entretien régulier ou un projet d'aménagement complet, notre équipe de jardiniers passionnés saura répondre à vos attentes avec professionnalisme et créativité.</p>
+    `
+  },
+  {
+    id: 'nettoyage',
+    title: 'Nettoyage',
+    description: 'Services de nettoyage professionnel pour particuliers et entreprises, adaptés à tous types de locaux.',
+    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 9 4-4"/><path d="m10 5-8 8"/><path d="m5 10-4 4"/><path d="m10 5 8 8"/><path d="m14 9 4-4"/><path d="m5 19 14-14"/><rect width="4" height="6" x="15" y="15" rx="2"/></svg>',
+    image: '/nettoyage.jpg',
+    detailedDescription: `
+      <p>TAMSE propose des services de nettoyage professionnel adaptés à tous types de locaux et à toutes exigences, pour les particuliers comme pour les entreprises.</p>
+      
+      <h4 class="text-lg font-semibold mt-4 mb-2">Nos prestations de nettoyage incluent :</h4>
+      <ul class="list-disc pl-5 mb-4">
+        <li>Nettoyage régulier ou ponctuel de bureaux et locaux commerciaux</li>
+        <li>Entretien d'immeubles et parties communes</li>
+        <li>Nettoyage de fin de chantier</li>
+        <li>Remise en état après travaux ou déménagement</li>
+        <li>Lavage de vitres et façades</li>
+        <li>Nettoyage en profondeur de sanitaires</li>
+        <li>Désinfection de locaux</li>
+        <li>Nettoyage industriel</li>
+      </ul>
+      
+      <h4 class="text-lg font-semibold mt-4 mb-2">Nos engagements :</h4>
+      <ul class="list-disc pl-5 mb-4">
+        <li>Personnel formé et qualifié</li>
+        <li>Produits professionnels et écologiques</li>
+        <li>Équipements modernes et performants</li>
+        <li>Horaires adaptés à vos contraintes</li>
+        <li>Suivi qualité rigoureux</li>
+      </ul>
+      
+      <p>Nous établissons avec vous un plan de nettoyage personnalisé en fonction de vos besoins spécifiques et de votre budget.</p>
     `
   },
   

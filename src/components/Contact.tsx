@@ -83,7 +83,7 @@ const Contact = ({ id }: SectionProps) => {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium">Adresse</h4>
-                    <p className="text-gray-600">Triple A Multiservices</p>
+                    <p className="text-gray-600">Rivera Palmeraie Angré 8 ième tranche</p>
                   </div>
                 </div>
               </div>
@@ -148,7 +148,7 @@ const Contact = ({ id }: SectionProps) => {
                     onChange={handleChange}
                     required
                     className="form-input"
-                    placeholder="votre@gmail.com"
+                    placeholder="votre@email.com"
                   />
                 </div>
                 

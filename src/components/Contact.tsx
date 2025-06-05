@@ -63,7 +63,7 @@ const Contact = ({ id }: SectionProps) => {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium">Téléphone</h4>
-                    <p className="text-gray-600"> +225 07 08 23 50 16</p>
+                    <p className="text-gray-600"> +225 07 08 23 50 16 / +225 07 48 01 11 11</p>
                   </div>
                 </div>
                 
@@ -107,7 +107,7 @@ const Contact = ({ id }: SectionProps) => {
           {/* Contact Form */}
           <div className="animate-slide-up" style={{ animationDelay: '0.2s' }}>
             <div className="bg-white p-8 rounded-lg shadow-custom">
-              <h3 className="text-2xl font-semibold mb-6">Artisan qualifiee? Envoyez-nous un message</h3>
+              <h3 className="text-2xl font-semibold mb-6">Voulez vous un devis? <br /> Ecrivez nous</h3>
               
               {submitSuccess ? (
                 <div className="bg-green-100 text-green-700 p-4 rounded-lg mb-6 animate-fade-in">

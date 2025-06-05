@@ -80,25 +80,7 @@ const Footer = () => {
           </div>
           
           {/* Newsletter */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4 relative inline-block">
-              Newsletter
-              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-green-500"></span>
-            </h3>
-            <p className="text-gray-400 mb-4">
-              Inscrivez-vous à notre newsletter pour recevoir nos dernières actualités.
-            </p>
-            <div className="flex">
-              <input
-                type="email"
-                placeholder="Votre email"
-                className="bg-gray-800 text-white px-4 py-2 rounded-l-md focus:outline-none w-full"
-              />
-              <button className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-r-md transition-colors">
-                <Send size={20} />
-              </button>
-            </div>
-          </div>
+          
         </div>
         
         {/* Copyright */}

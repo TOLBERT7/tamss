@@ -259,27 +259,7 @@ const Navbar = () => {
               </button>
               {servicesDropdownOpen && (
                 <div className="pl-8 bg-gray-50">
-                  <a 
-                    href="#service-electricite" 
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      scrollToSection('service-electricite');
-                    }}
-                  >
-                    Électricité
-                  </a>
-                  <a 
-                    href="#service-jardinage" 
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      scrollToSection('service-jardinage');
-                    }}
-                  >
-                    Jardinage
-                  </a>
-                  <a 
+                   <a 
                     href="#service-briques-eco" 
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={(e) => {
@@ -288,26 +268,6 @@ const Navbar = () => {
                     }}
                   >
                     Briques éco
-                  </a>
-                  <a 
-                    href="#service-climatisation" 
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      scrollToSection('service-climatisation');
-                    }}
-                  >
-                    Climatisation
-                  </a>
-                  <a 
-                    href="#service-nettoyage" 
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      scrollToSection('service-nettoyage');
-                    }}
-                  >
-                    Nettoyage
                   </a>
                   <a 
                     href="#service-gestion-immobiliere" 
@@ -319,6 +279,71 @@ const Navbar = () => {
                   >
                     Gestion immobilière
                   </a>
+                  <a 
+                    href="#service-electricite" 
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      scrollToSection('service-electricite');
+                    }}
+                  >
+                    Électricité
+                  </a>
+                   <a 
+                    href="#service-climatisation" 
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      scrollToSection('service-climatisation');
+                    }}
+                  >
+                    Froid
+                  </a>
+                  <a 
+                    href="#service-plomberie" 
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      scrollToSection('service-plomberie');
+                      setServicesDropdownOpen(false);
+                    }}
+                  >
+                    Plomberie
+                  </a>
+                   <a 
+                    href="#service-decoration" 
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      scrollToSection('service-decoration');
+                      setServicesDropdownOpen(false);
+                    }}
+                  >
+                    Décoration d'interieur
+                  </a>
+                  <a 
+                    href="#service-jardinage" 
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      scrollToSection('service-jardinage');
+                    }}
+                  >
+                    Jardinage
+                  </a>
+                
+                 
+                  <a 
+                    href="#service-nettoyage" 
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      scrollToSection('service-nettoyage');
+                    }}
+                  >
+                    Nettoyage
+                  </a>
+                  
                 </div>
               )}
             </div>

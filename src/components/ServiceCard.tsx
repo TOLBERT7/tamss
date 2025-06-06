@@ -35,7 +35,7 @@ const ServiceCard = ({ service, index }: ServiceCardProps) => {
       <div className="rounded-3xl bg-gradient-to-tr from-green-200 to-blue-200 p-[2px] hover:shadow-lg hover:shadow-green-200/40 transition-shadow duration-500">
         <div className="bg-white rounded-3xl shadow-2xl overflow-hidden transform transition-transform duration-500 hover:scale-105">
           {/* Partie image stylisée */}
-          <div className="relative group h-48">
+          <div className="relative group h-96">
             {/* Cadre interne penché */}
             <div className="absolute inset-0 rounded-[1.75rem] border-4 border-white shadow-inner shadow-green-300/30 transform -rotate-3 scale-105 group-hover:rotate-0 group-hover:scale-100 transition-all duration-700 ease-out"></div>
             {/* Image de fond */}

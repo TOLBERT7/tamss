@@ -108,28 +108,6 @@ const Navbar = () => {
               >
                 <div className="py-1">
                   <a 
-                    href="#service-electricite" 
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      scrollToSection('service-electricite');
-                      setServicesDropdownOpen(false);
-                    }}
-                  >
-                    Électricité
-                  </a>
-                  <a 
-                    href="#service-jardinage" 
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      scrollToSection('service-jardinage');
-                      setServicesDropdownOpen(false);
-                    }}
-                  >
-                    Jardinage
-                  </a>
-                  <a 
                     href="#service-briques-eco" 
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={(e) => {
@@ -142,6 +120,28 @@ const Navbar = () => {
                     
                   </a>
                   <a 
+                    href="#service-gestion-immobiliere" 
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      scrollToSection('service-gestion-immobiliere');
+                      setServicesDropdownOpen(false);
+                    }}
+                  >
+                    Gestion immobilière
+                  </a>
+                  <a 
+                    href="#service-electricite" 
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      scrollToSection('service-electricite');
+                      setServicesDropdownOpen(false);
+                    }}
+                  >
+                    Électricité
+                  </a>
+                  <a 
                     href="#service-climatisation" 
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={(e) => {
@@ -151,17 +151,6 @@ const Navbar = () => {
                     }}
                   >
                     Froid
-                  </a>
-                  <a 
-                    href="#service-nettoyage" 
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      scrollToSection('service-nettoyage');
-                      setServicesDropdownOpen(false);
-                    }}
-                  >
-                    Nettoyage
                   </a>
                    <a 
                     href="#service-plomberie" 
@@ -185,18 +174,32 @@ const Navbar = () => {
                   >
                     Décoration d'interieur
                   </a>
-                  
                   <a 
-                    href="#service-gestion-immobiliere" 
+                    href="#service-jardinage" 
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={(e) => {
                       e.preventDefault();
-                      scrollToSection('service-gestion-immobiliere');
+                      scrollToSection('service-jardinage');
                       setServicesDropdownOpen(false);
                     }}
                   >
-                    Gestion immobilière
+                    Jardinage
                   </a>
+                  
+                  
+                  <a 
+                    href="#service-nettoyage" 
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      scrollToSection('service-nettoyage');
+                      setServicesDropdownOpen(false);
+                    }}
+                  >
+                    Nettoyage
+                  </a>
+                                    
+                  
                 </div>
               </div>
             </div>

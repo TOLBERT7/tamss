@@ -59,22 +59,29 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
+                <a href="#service-briques-eco" className="text-gray-400 hover:text-white transition-colors">Briques éco</a>
+              </li>
+              <li>
+              <li>
+                <a href="#service-gestion-immobiliere" className="text-gray-400 hover:text-white transition-colors">Gestion immobilière</a>
+              </li>
                 <a href="#service-electricite" className="text-gray-400 hover:text-white transition-colors">Électricité</a>
+              </li>
+              <li>
+                <a href="#service-climatisation" className="text-gray-400 hover:text-white transition-colors">Froid</a>
+              </li>
+              <li>
+                <a href="#service-plomberie" className="text-gray-400 hover:text-white transition-colors">Plomberie</a>
+              </li>
+              
+              <li>
+                <a href="#service-decoration" className="text-gray-400 hover:text-white transition-colors">Décoration</a>
               </li>
               <li>
                 <a href="#service-jardinage" className="text-gray-400 hover:text-white transition-colors">Jardinage</a>
               </li>
               <li>
-                <a href="#service-briques-eco" className="text-gray-400 hover:text-white transition-colors">Briques éco</a>
-              </li>
-              <li>
-                <a href="#service-climatisation" className="text-gray-400 hover:text-white transition-colors">Climatisation</a>
-              </li>
-              <li>
                 <a href="#service-nettoyage" className="text-gray-400 hover:text-white transition-colors">Nettoyage</a>
-              </li>
-              <li>
-                <a href="#service-gestion-immobiliere" className="text-gray-400 hover:text-white transition-colors">Gestion immobilière</a>
               </li>
             </ul>
           </div>

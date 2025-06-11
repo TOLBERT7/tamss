@@ -68,9 +68,9 @@ const About = ({ id }: SectionProps) => {
               <h3 className="text-2xl font-semibold mb-4">Message du Directeur</h3>
               <blockquote className="italic text-gray-600 border-l-4 border-green-500 pl-4 mb-6">
    
-
-Chez TAMSE, nous sommes dédiés à fournir des services de haute qualité dans tous les domaines
-que nous couvrons.
+Créée le 17 Novembre 2017
+TAMSE est dedié à fournir des services de haute qualité dans tous les domaines
+qu'il couvre.
  Notre équipe d&#39;experts qualifiés s&#39;engage à offrir des solutions personnalisées,
 innovantes et écologiquement responsables.
 Depuis notre création, nous avons toujours mis l&#39;accent sur la qualité, le professionnalisme et la

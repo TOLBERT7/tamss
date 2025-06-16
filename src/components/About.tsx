@@ -68,7 +68,7 @@ const About = ({ id }: SectionProps) => {
               <h3 className="text-2xl font-semibold mb-4">Message du Directeur</h3>
               <blockquote className="italic text-gray-600 border-l-4 border-green-500 pl-4 mb-6">
    
-Créée le 17 Novembre 2017
+Créée le 17 Novembre 2020
 TAMSE est dedié à fournir des services de haute qualité dans tous les domaines
 qu'il couvre.
  Notre équipe d&#39;experts qualifiés s&#39;engage à offrir des solutions personnalisées,
@@ -86,8 +86,8 @@ permet de répondre efficacement à tous vos besoins.
 chaque client reçoit une attention particulière et des solutions adaptées à ses exigences spécifiques.
 En 2025, TAMSE a décidé de suivre l’évolution de nos réalités climatiques changeantes dans le
 monde, et particulièrement en Afrique;
-nous nous sommes  donc former et avons investi dans des machines
-spécialisées pour la fabrication de Briques à terre compressée. (BTC).
+nous nous sommes  donc formés et avons investis dans des machines
+spécialisés pour la fabrication de Briques à terre compressée. (BTC).
 Nous retournons à notre mère-nature, la Terre, pour vous faire de belles réalisations modernes, 20 à
 30% moins chères que les constructions traditionnellement polluante ,et parfaitement adaptées au
 réchauffement global de notre planète.
@@ -101,8 +101,8 @@ jardinier…puisque nous vous proposons tout sous un même toit. Simple et compl
 Oui ! on peut faire maintenant de belles bâtisses modernes,
 durables,economiques,isothermiques…avec de la terre, comme l’avaient compris nos ancêtres dont
 les réalisations sont encore là pour témoigner de leur résistance aux temps et ,intempéries.
-seulement cela ne peut se faire qu' avec des équipes et equipements specialises dont nous avons le secret.
-Pourquoi ne pas consulter notre site web : www.Tamse.pro pour plus de détails.
+Seulement cela ne peut se faire qu' avec des équipes et equipements specialises dont nous avons le secret.
+Pourquoi ne pas consulter notre site web : <strong>www.tamse.pro </strong> pour plus de détails.
  Merci et A très Bientôt.
 
              </blockquote>
